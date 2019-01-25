@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RootMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Config IdPrefix="mnuCmd" VarPrefix="sampleMenu" UseNumbering="true" IncludeNumberHierarchy="false"
+          MaxNameLen="15" MenuBackFirstItem="false" BackText="Back" ExitText="Exit" AvrProgMem="true"/>
+  <MenuItems>
+    <Item Id="TrackMode" Name="Track Mode">
+		<MenuItems>
+		<Item Id="SpeedT" Name="Speed"/>
+		<Item Id="DirectionT" Name="Direction"/>
+		<Item Id="TrackLengthT" Name="Track length"/>	
+		</MenuItems>
+	</Item>
+    <Item Id="CircleMode" Name="Circle Mode">
+		<MenuItems>
+		<Item Id="SpeedC" Name="Speed"/>
+		<Item Id="DirectionC" Name="Direction"/>
+		<Item Id="TrackLengthC" Name="Track length"/>
+		</MenuItems>
+    </Item>
+  </MenuItems>
+</RootMenu>
